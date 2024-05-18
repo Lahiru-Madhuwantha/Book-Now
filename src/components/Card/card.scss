@@ -6,7 +6,7 @@
 
   .imageContainer {
     flex: 2;
-    height: 200px;
+    height: 150px;
 
     @include md {
       display: none;
@@ -32,7 +32,7 @@
     }
 
     .title {
-      font-size: 20px;
+      font-size: 15px;
       font-weight: 600;
       color: #444;
       transition: all 0.4s ease;
@@ -44,7 +44,7 @@
     }
 
     .address {
-      font-size: 14px;
+      font-size: 12px;
       display: flex;
       align-items: center;
       gap: 5px;
@@ -52,11 +52,11 @@
     }
 
     .price {
-      font-size: 20px;
+      font-size: 15px;
       font-weight: 300;
       padding: 5px;
       border-radius: 5px;
-      background-color: rgba(254, 205, 81, 0.438);
+      background-color: rgba(242, 227, 92, 0.76);
       width: max-content;
     }
 
@@ -68,7 +68,7 @@
       .features {
         display: flex;
         gap: 20px;
-        font-size: 14px;
+        font-size: 12px;
 
         .feature {
           display: flex;
@@ -94,7 +94,7 @@
           justify-content: center;
 
           &:hover {
-            background-color: lightgray;
+            background-color: rgb(255, 179, 0);
           }
         }
       }
