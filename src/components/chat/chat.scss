@@ -9,7 +9,7 @@
     flex-direction: column;
     gap: 20px;
     overflow-y: scroll;
-
+    padding-top: 10px;
     h2 {
       font-weight: 300;
     }
@@ -44,7 +44,7 @@
     justify-content: space-between;
 
     .top {
-      background-color: #f7c14b85;
+      background-color: #81D4FA;
       padding: 20px;
       font-weight: bold;
       display: flex;
@@ -85,14 +85,14 @@
 
         span{
           font-size: 12px;
-          background-color: #f7c14b39;
+          background-color: #E1F5FE;
           padding: 2px;
           border-radius: 5px;
         }
       }
     }
     .bottom {
-      border-top: 2px solid #f7c14b85;
+      border-top: 2px solid #81D4FA;
       height: 60px;
       display: flex;
       align-items: center;
@@ -107,7 +107,7 @@
 
       button{
         flex:1;
-        background-color: #f7c14b85;
+        background-color: #81D4FA;
         height: 100%;
         border: none;
         cursor: pointer;

@@ -35,7 +35,7 @@
         .top {
           display: flex;
           justify-content: space-between;
-        background-color: #FFE082;
+        background-color: #E1F5FE;
 
           @include sm {
             flex-direction: column;
@@ -65,7 +65,7 @@
             }
             .price {
               padding: 5px;
-              background-color:#C51162;
+              background-color:#00E676;
               border-radius: 5px;
               width: max-content;
               font-size: 20px;
@@ -106,7 +106,7 @@
   .features {
     flex: 2;
     // background-color: #fcf5f3;
-    background-color: rgb(245, 243, 216);
+    background-color: #E1F5FE;
 
     height: 100%;
     overflow-y: scroll;
@@ -206,8 +206,9 @@
           display: flex;
           align-items: center;
           gap: 5px;
-          background-color: #FFE082;
-          border: 1px solid #fece51;
+          background-color:#81D4FA;
+          // border: 1px solid #fece51;
+          border: none;
           border-radius: 5px;
           cursor: pointer;
 
