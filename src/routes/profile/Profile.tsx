@@ -1,6 +1,7 @@
 import React from 'react'
 import './profile.scss'
 import List from '../../components/list/List'
+import Chat from '../../components/chat/Chat'
 
 function Profile() {
   return (
@@ -39,7 +40,7 @@ function Profile() {
       </div>
       <div className="chatContainer">
         <div className="wrapper">
-          {/* <Chat/> */}
+          <Chat/>
         </div>
       </div>
     </div>
