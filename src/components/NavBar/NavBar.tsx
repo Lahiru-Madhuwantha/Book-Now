@@ -1,10 +1,16 @@
 import React, { useState } from "react";
 import "./navBar.scss";
 import { Link } from "react-router-dom";
+import Register from "../../routes/register/Register";
 
 function NavBar() {
   const [open, setOpen] = useState(false);
-  const user = true;
+  const[showRegister, setShowRegister] = useState(true);
+  const user = false;
+
+  const toggleRegister = () =>{
+    setShowRegister(!showRegister);
+  }
   return (
     <nav>
       <div className="left">
@@ -33,7 +39,7 @@ function NavBar() {
         ) : (
           <>
             <a href="">SignIn</a>
-            <a href="/" className="signup">
+            <a href="/" className="signup" onClick={toggleRegister}>
               Sign Up
             </a>{" "}
           </>
@@ -54,6 +60,7 @@ function NavBar() {
           <a href="">Sign Up</a>
         </div>
       </div>
+      <Register show={showRegister} onClose={toggleRegister} />
     </nav>
   );
 }
