@@ -103,6 +103,18 @@ a {
         justify-content: center;
       }
     }
+    .logout{
+      padding: 12px 24px;
+      margin-right: 10px;
+      background-color: transparent;
+      font-weight: 600;
+      border-width: 1px;
+      border-color: #304FFE;
+      cursor: pointer;
+      border: none;
+      position: relative;
+      color: #304FFE;
+    }
   }
 
   .signup {
